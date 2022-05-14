@@ -25,6 +25,8 @@ namespace SumMinandMax
             {
                 return array[0];
             }
+
+            //gets the minimum value
             int min = Math.Min(array[length - 1], Min(array, (length - 1)));
 
             //print out the min number 
@@ -40,6 +42,7 @@ namespace SumMinandMax
             {
                 return array[0];
             }
+            //gets the maximum value
             int max = Math.Max(array[length - 1],Max(array, (length - 1)));
 
             //print out the max number
